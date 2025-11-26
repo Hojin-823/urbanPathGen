@@ -15,12 +15,6 @@ We aim to enhance realism by:
 2. Utilizing the resulting **aerodynamic drag** as a key cost function for path planning.
 3. Demonstrating significant energy savings compared to conventional distance-based algorithms.
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Result+Image+Placeholder" alt="Path Planning Result" width="800">
-  <br>
-  <em>Fig 1. Comparison between Distance-based (Opt 1) and Energy-based (Opt 2) paths.</em>
-</p>
-
 ---
 
 ## 🚀 Key Features
