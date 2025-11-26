@@ -74,18 +74,18 @@ def main():
         e_no_wind = calculate_total_energy(full_path1, env, no_wind=True) if is_path1_found else None
 
         print(f"\\n[Results for {name}]")
-        if dist1: print(f"  Opt 1 Distance: {dist1:.3f} m")
-        if dist2: print(f"  Opt 2 Distance: {dist2:.3f} m")
+        if dist1: print(f"  Opt 1 Distance: {dist1:.3f} m") # These results are TAB VI.
+        if dist2: print(f"  Opt 2 Distance: {dist2:.3f} m") # These results are TAB VI.
 
         #if e_no_wind: print(f"  No wind_Energy:   {e_no_wind:.2f}") # These results are not multiplying U_{ref}^2
         #if e1: print(f"  Opt 1 Energy:     {e1:.2f}") # These results are not multiplying U_{ref}^2
         #if e2: print(f"  Opt 2 Energy:     {e2:.2f}") # These results are not multiplying U_{ref}^2
 
         if e1 and e2 and e_no_wind and e_no_wind > 0:
-            print(f"  Opt 1 Non_dimensional_Energy: {e1/e_no_wind:.4f}")
-            print(f"  Opt 2 Non_dimensional_Energy: {e2/e_no_wind:.4f}")
+            print(f"  Opt 1 Non_dimensional_Energy: {e1/e_no_wind:.4f}") # These results are TAB VII.
+            print(f"  Opt 2 Non_dimensional_Energy: {e2/e_no_wind:.4f}") # These results are TAB VII.
             savings = ((e1 - e2) / e1) * 100
-            print(f"  Energy Savings: {savings:.2f}%")
+            print(f"  Energy Savings: {savings:.2f}%") # These results are TAB VII.
 
         plot_results(env, full_path1, full_path2, waypoints, name)
 
