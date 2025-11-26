@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-"""
-
 import argparse
 import numpy as np
 from src.environment import UrbanFlowEnv
