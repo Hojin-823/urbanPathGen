@@ -28,6 +28,15 @@ We aim to enhance realism by:
 ## 🚀 Results
 You can extract various values of **distance**, **work consumption** and **work savings (%)**. Also, we can generate a figure showing the building domain, SP, DE, WPs, and the paths for Opt 1 and Opt 2, which allows for path comparison.
 
+<p align="center">
+  
+  ![Comparison of Opt 1 and Opt 2 Paths](https://github.com/Hojin-823/urbanPathGen/issues/1#issue-3667203109)
+  
+  <br>
+  <em>
+    Fig 1. The computed paths for Scenario 1, Case 1.
+  </em>
+</p>
 
 ---
 ## 🛠️ Usage & Reproducibility
