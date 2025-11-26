@@ -14,9 +14,10 @@ def main():
     env = UrbanFlowEnv(args.info, args.pv)
 
     # 2. Define Scenarios
-    start_pos = np.array([0, -2.5])
-    goal_pos = np.array([-2.5, -2.5])
-    stopovers = [np.array([0, 2.5]), np.array([0.5, 0.5]), np.array([2.5, 0.5])]
+    start_pos = np.array([0.4, -1.6])
+    goal_pos = np.array([2.5, 0.5])
+    stopovers = [np.array([-1, 2.5]), np.array([-0.5, -2.5]), np.array([2.5, -2.5])]
+
 
     scenarios = {
         'Scenario_1': [start_pos, stopovers[0], goal_pos],
