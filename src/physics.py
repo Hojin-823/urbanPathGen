@@ -45,7 +45,7 @@ _f_cd_loglin = interp1d(
 def reynolds_uav_from_v_air(v_air):
     v_air = float(v_air)
     if v_air <= 0.0: return 0.0
-    return 500.0 * v_air
+    return 0.1 * v_air *Re_FLOW
 
 def calculate_cd_for_circular_cylinder(reynolds_number):
     Re = np.asarray(reynolds_number, dtype=float)
