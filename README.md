@@ -30,7 +30,7 @@ You can extract various values of **distance**, **work consumption** and **work 
 
 <p align="center">
   
-  ![Comparison of Opt 1 and Opt 2 Paths](https://github.com/Hojin-823/urbanPathGen/issues/1#issue-3667203109)
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/0156737e-fe24-4696-844c-38c3e411eef1" />
   
   <br>
   <em>
