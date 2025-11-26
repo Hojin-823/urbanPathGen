@@ -77,9 +77,9 @@ def main():
         if dist1: print(f"  Opt 1 Distance: {dist1:.3f} m")
         if dist2: print(f"  Opt 2 Distance: {dist2:.3f} m")
 
-        if e_no_wind: print(f"  No wind_Energy:   {e_no_wind:.2f}")
-        if e1: print(f"  Opt 1 Energy:     {e1:.2f}")
-        if e2: print(f"  Opt 2 Energy:     {e2:.2f}")
+        #if e_no_wind: print(f"  No wind_Energy:   {e_no_wind:.2f}") # These results are not multiplying U_{ref}^2
+        #if e1: print(f"  Opt 1 Energy:     {e1:.2f}") # These results are not multiplying U_{ref}^2
+        #if e2: print(f"  Opt 2 Energy:     {e2:.2f}") # These results are not multiplying U_{ref}^2
 
         if e1 and e2 and e_no_wind and e_no_wind > 0:
             print(f"  Opt 1 Non_dimensional_Energy: {e1/e_no_wind:.4f}")
