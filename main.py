@@ -18,16 +18,16 @@ def main():
         return
 
     # Coordinate SP, DE, WPs
-    START_POS = np.array([0.4, -1.6])
-    GOAL_POS = np.array([2.5, 0.5])
-    STOPOVER_POS_1 = np.array([-1, 2.5])
-    STOPOVER_POS_2 = np.array([-0.5, -2.5])
-    STOPOVER_POS_3 = np.array([2.5, -2.5])
+    START_POS = np.array([0.4, -1.6]) # SP
+    GOAL_POS = np.array([2.5, 0.5]) # DE
+    STOPOVER_POS_1 = np.array([-1, 2.5]) # WP 1
+    STOPOVER_POS_2 = np.array([-0.5, -2.5]) # WP 2
+    STOPOVER_POS_3 = np.array([2.5, -2.5]) # WP 3
 
     scenarios = {
-        'Scenario (1 Stopover)': [START_POS, STOPOVER_POS_1, GOAL_POS],
-        'Scenario (2 Stopovers)': [START_POS, STOPOVER_POS_1, STOPOVER_POS_2, GOAL_POS],
-        'Scenario (3 Stopovers)': [START_POS, STOPOVER_POS_1, STOPOVER_POS_2, STOPOVER_POS_3, GOAL_POS],
+        'Scenario (1 WP)': [START_POS, STOPOVER_POS_1, GOAL_POS],
+        'Scenario (2 WPs)': [START_POS, STOPOVER_POS_1, STOPOVER_POS_2, GOAL_POS],
+        'Scenario (3 WPs)': [START_POS, STOPOVER_POS_1, STOPOVER_POS_2, STOPOVER_POS_3, GOAL_POS],
     }
 
     setup_plot_style()
