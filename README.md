@@ -56,7 +56,7 @@ STOPOVER_POS_3 = np.array([2.5, -2.5])  # WP 3
 urban/
 ├── data/               # Place NetCDF files here
 ├── src/                # Source codes
-|   ├── __init__.py
+│   ├── __init__.py
 │   ├── physics.py      # Physical constants & Drag coefficient ($C_d$) interpolation
 │   ├── environment.py  # Data loading & Building detection
 │   ├── pathfinding.py  # Modified Dijkstra algorithm (Opt 1 & Opt 2)
