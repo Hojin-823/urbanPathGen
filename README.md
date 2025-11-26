@@ -31,6 +31,7 @@ We aim to enhance realism by:
 urban/
 ├── data/               # Place NetCDF files here
 ├── src/                # Source codes
+|   ├── __init__.py
 │   ├── physics.py      # Physical constants & Drag coefficient ($C_d$) interpolation
 │   ├── environment.py  # Data loading & Building detection
 │   ├── pathfinding.py  # Modified Dijkstra algorithm (Opt 1 & Opt 2)
