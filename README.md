@@ -48,6 +48,7 @@ GOAL_POS = np.array([2.5, 0.5])     # DE
 STOPOVER_POS_1 = np.array([-1, 2.5])    # WP 1
 STOPOVER_POS_2 = np.array([-0.5, -2.5]) # WP 2
 STOPOVER_POS_3 = np.array([2.5, -2.5])  # WP 3
+```
 ---
 
 ## 📂 Directory Structure
