@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-"""
-
 import numpy as np
 import math
 import netCDF4 as nc
