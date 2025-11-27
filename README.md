@@ -54,7 +54,7 @@ STOPOVER_POS_3 = np.array([2.5, -2.5])  # WP 3
 ---
 
 ## 🚀 Results
-You can extract various values of **distance**, **work consumption** and **work savings (%)** for $Re=5000$. Also, we can generate a figure showing the building domain, SP, DE, WPs, and the paths for Opt 1 and Opt 2, which allows for path comparison. This is a visualization of Scenario 1, Case 1 introduced in the paper.
+You can extract various values of **distance** and **work savings (%)** for $Re=5000$. Also, we can generate a figure showing the building domain, SP, DE, WPs, and the paths for Opt 1 and Opt 2, which allows for path comparison. This is a visualization of Scenario 1, Case 1 introduced in the paper.
 
 <p align="center">
 <img width="800" height="100" alt="Image" src="https://github.com/user-attachments/assets/513fbd2f-bb4e-4038-b520-a78c0d74fb9f" />
