@@ -77,28 +77,29 @@ You can extract various values of **distance** and **work savings (%)** for $Re=
 
 ## 📂 Directory Structure
 
+```text
 ├── data/                          # Input data directory for the path planning module
 │   ├── Info.Netcdf                # Grid and coordinate information file
-│   └── README.txt                 # Instructions regarding data files
+│   └── README.txt                
 │
 ├── gcnn/                          # Graph Convolutional Neural Network (GCNN) module
 │   ├── data_set/                  # Dataset directory for GCNN inference
 │   │   ├── adjLists/              # Graph connectivity data (Adjacency lists)
-│   │   │   └── adjLst_914.hdf5    # Adjacency list for sample ID 914
+│   │   │   └── adjLst_914.hdf5    # Adjacency list
 │   │   ├── coords/                # Nodal coordinate data
-│   │   │   └── coord_914.hdf5     # Coordinates for sample ID 914
+│   │   │   └── coord_914.hdf5     # Coordinates 
 │   │   └── samples/               # Template files for file generation
 │   │       └── PV_samplefile.Netcdf # Template container for PV (velocity) data
 │   └── results/                   # Directory where GCNN prediction results will be saved
-│       └── README.txt             # Information about output files
+│       └── README.txt            
 │
-├── src/                           # Source code for the main path planning logic
+├── src/                          
 │   ├── __init__.py                # Package initialization file
 │   ├── environment.py             # Environment setup and boundary definitions
 │   ├── pathfinding.py             # Core pathfinding algorithms (e.g., Dijkstra)
 │   ├── physics.py                 # Physics calculations (Drag, Reynolds number, Energy)
 │   └── visualization.py           # Plotting and visualization tools
 │
-├── .gitignore                     # Specifies files to ignore in Git version control
-├── LICENSE                        # License information for the project
-└── README.md                      # Main project documentation and usage guide       
+├── .gitignore                   
+├── LICENSE                      
+└── README.md                     
