@@ -82,6 +82,7 @@ You can extract various values of **distance** and **work savings (%)** for $Re=
 ## 📂 Directory Structure
 
 ```text
+├── checkpoint_gcnn.pth.tar
 ├── data/                          # Input data directory for the path planning module
 │   ├── Info.Netcdf                # Grid and coordinate information file
 │   └── README.txt                
