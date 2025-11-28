@@ -28,9 +28,12 @@ We aim to enhance realism by:
 
 This code is specifically configured for the **$Re=5000$** flow regime, corresponding to the experimental setup described in **Table III** of the paper.
 
+### 0. GCNN
+
+
 ### 1. Data Setup
 Place the downloaded NetCDF files into the `data/` directory. Ensure the filenames match exactly:
-* `data/Info.Netcdf` (Geometry info)
+* `data/Info.Netcdf` (Geometry info, this file exists already in data)
 * `data/PV.Netcdf` (Velocity field for Re=5000)
 
 **Note:** If you wish to use different filenames or paths, you can modify the `info_file` and `pv_file` variables inside `main.py`.
