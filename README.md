@@ -29,7 +29,9 @@ We aim to enhance realism by:
 This code is specifically configured for the **$Re=5000$** flow regime, corresponding to the experimental setup described in **Table III** of the paper.
 
 ### 0. GCNN
-
+`inference.py` is a lightweight, inference-only script. It bypasses the training process and loads the pre-trained checkpoint to generate flow field predictions. 
+Upon execution, the predicted flow field file (e.g., PV_pred_914.Netcdf) will be generated in the `gcnn/results` directory.
+Action Required: Move (or download) this PV file into the `data` directory to use it for the path planning algorithm.
 
 ### 1. Data Setup
 Place the downloaded NetCDF files into the `data/` directory. Ensure the filenames match exactly:
