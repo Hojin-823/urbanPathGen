@@ -77,13 +77,28 @@ You can extract various values of **distance** and **work savings (%)** for $Re=
 
 ## 📂 Directory Structure
 
-```bash
-├── data/               # Place NetCDF files here
-├── src/                # Source codes
-│   ├── __init__.py
-│   ├── physics.py      # Physical constants & Drag coefficient ($C_d$) interpolation
-│   ├── environment.py  # Data loading & Building detection
-│   ├── pathfinding.py  # Modified Dijkstra algorithm (Opt 1 & Opt 2)
-│   └── visualization.py # Plotting tools
-├── main.py             # Main execution script
-└── requirements.txt    # Python dependencies
+├── data/                         
+│   ├── Info.Netcdf                # Grid and coordinate information file
+│   └── README.txt                 
+│
+├── gcnn/                         
+│   ├── data_set/                  
+│   │   ├── adjLists/              
+│   │   │   └── adjLst_914.hdf5    # Adjacency list
+│   │   ├── coords/                
+│   │   │   └── coord_914.hdf5     # Coordinates
+│   │   └── samples/               
+│   │       └── PV_samplefile.Netcdf # Template container for PV data
+│   └── results/                   
+│       └── README.txt           
+│
+├── src/                           
+│   ├── __init__.py               
+│   ├── environment.py             # Environment setup and boundary definitions
+│   ├── pathfinding.py             # Core pathfinding algorithms (e.g., Dijkstra)
+│   ├── physics.py                 # Physics calculations
+│   └── visualization.py           # Plotting and visualization tools
+│
+├── .gitignore                   
+├── LICENSE                  
+└── README.md                    
