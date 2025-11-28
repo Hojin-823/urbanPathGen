@@ -132,7 +132,7 @@ def main():
                 nc.close()
                 print(f"💾 PV data: {output_pv}")
             else:
-                print(f"⚠️ No PV template({pv_template_name}). So storing .npy instead of .Netcdf")
+                print(f"⚠️ No PV sample file({pv_template_name}).")
                 np.save(output_pv.replace(".Netcdf", ".npy"), pred.cpu().numpy())
 
 if __name__ == "__main__":
