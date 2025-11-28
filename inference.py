@@ -17,7 +17,6 @@ from collections import OrderedDict
 BASE_PATH = "./"
 
 class Config:
-    uref = 0.0057735
     target_id = '914' # Sample ID
     data_dir = os.path.join("./gcnn/", "data_set")
     checkpoint_path = os.path.join(BASE_PATH, "checkpoint_gcnn.pth.tar")
