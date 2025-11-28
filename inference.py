@@ -103,7 +103,7 @@ def main():
         model.load_state_dict(new_state_dict, strict=False)
         print("✅ checkpoint load.")
     else:
-        print("❌ no ceckpoint file.")
+        print("❌ no checkpoint file.")
         return
 
     dataset = InferenceDataset(root=args.data_dir, file_id=args.target_id)
