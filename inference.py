@@ -19,7 +19,7 @@ BASE_PATH = "./"
 class Config:
     uref = 0.0057735
     target_id = '914' # Sample ID
-    data_dir = os.path.join(BASE_PATH, "data_test")
+    data_dir = os.path.join(BASE_PATH, "data_set")
     checkpoint_path = os.path.join(BASE_PATH, "checkpoint_gcnn.pth.tar")
     output_dir = os.path.join(BASE_PATH, "results")
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
